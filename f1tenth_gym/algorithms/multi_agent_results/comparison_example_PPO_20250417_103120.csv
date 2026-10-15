@@ -1,0 +1,2 @@
+episode,rl_lap_time,pp_lap_time,rl_total_reward,rl_max_speed,pp_max_speed,rl_crashed,pp_crashed,steps,wall_time
+1,-1,-1,6844.897608556365,6.499999999999991,5.999999999999991,True,False,1722,24.94

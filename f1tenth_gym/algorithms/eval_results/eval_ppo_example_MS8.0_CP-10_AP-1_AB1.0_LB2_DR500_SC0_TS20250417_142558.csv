@@ -1,0 +1,2 @@
+episode,lap_time,total_reward,max_speed,crashed,steps,track_coverage,wall_time
+1,20.160000000000352,9971.284585297108,7.999999999999991,False,3987,1.0,3.5

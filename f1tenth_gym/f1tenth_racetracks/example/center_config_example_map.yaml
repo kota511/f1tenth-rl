@@ -1,0 +1,61 @@
+# center_config_example_map.yaml
+
+# metadata
+run_name: 'map_wide'
+# characteristic number for map
+perf_num: 6
+
+# map paths
+map_path: './example_map'
+map_ext: '.png'
+
+# starting pose for map inner centerline
+sx: -0.693488
+sy: 1.059922
+stheta: 1.570433
+# sx: -8.063530
+# sy: -6.239326
+# stheta: -0.218357
+# starting pose for map outer centerline
+sx2: 0.506262
+sy2: 1.259386
+stheta2: 1.576474
+
+# raceline path and indices
+wpt_path: './example_centerline_inner.csv'
+wpt_path2: './example_centerline_outer.csv'
+wpt_delim: ';'
+wpt_rowskip: 0
+wpt_xind: 0
+wpt_yind: 1
+wpt_thind: 2
+wpt_vind: 3
+
+# varied params bound
+# physical params
+mass_min: 3.0
+mass_max: 4.0
+lf_min: 0.147
+lf_max: 0.170
+# controller params
+tlad_min: 0.2
+tlad_max: 5.
+vgain_min: 0.5
+vgain_max: 1.5
+
+# computation budget (can think of it as gen_num times pop_size)
+popsize: 100
+budget: 1000
+
+# optimization method
+optim_method: 'CMA'
+
+# seed
+seed: 12345
+
+mass: 3.463388126201571
+lf: 0.15597534362552312
+tlad: 0.82461887897713965
+vgain: 1.375
+
+track_length: 156.35611902054015
